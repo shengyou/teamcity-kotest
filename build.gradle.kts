@@ -5,6 +5,7 @@ val kotestVersion: String by project
 plugins {
     kotlin("jvm") version "1.5.10"
     application
+    id("org.jmailen.kotlinter") version "3.9.0"
 }
 
 group = "me.shengyou"
