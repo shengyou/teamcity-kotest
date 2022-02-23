@@ -3,11 +3,14 @@ package io.kraftsman.services
 import io.kraftsman.models.Product
 
 class ShoppingCart {
-    private val products = mutableListOf<Product>()
+    private val products=mutableListOf<Product>(    )
 
-    fun add(product: Product) {
-        products.add(product)
-    }
+    fun add(product:   Product   ){ products.add(product)
+}
+    fun totalPrice(
 
-    fun totalPrice(): Int = products.sumOf { it.price }
+
+
+    ): Int = products.sumOf {
+        it.price }
 }
